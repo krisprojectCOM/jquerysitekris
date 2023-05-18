@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ASSIGNMENT #5 JQUERY Plugins</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    
+    <style>
+    
+      
+    </style>
+    
+  </head>
+  <body>
+    
+  <header>
+    <h3>Kris Kosta / <a>User Experiance Consultant</a> </h3>
+    </header>
+    
+    <article>
+      <h1> Simplify Technology</h1>
+      <p> My mission has been the same for over a decade. I use proven user-centered design and research teqniques to make apps, websites, and software easy to use for people. </p>
+      </article>
+    
+    <h2><b>Work</b></h2>
+   <h2 id="h2btn"><button class="sectiontogglebtn" id="togglebtn">Collapse Section </button></h2>
+    
+    
+    <div class="grid-container">
+  <div class="item1"><img src="https://farm1.staticflickr.com/791/39454826060_c749562996.jpg"  alt="Avvo">
+        <p>Avvo's Ignite is cloud-based software that helps law firms market themselves and manage clients. I designed user flows and UI for new features.</p></div>
+      
+  <div class="item2">
+    <img src="https://farm1.staticflickr.com/876/27390542858_4418b39233.jpg" alt="facebook">
+        <p>Facebook's Atlas is a digital advertising platform for brands and ad agencies. I helped their design team craft and prototype the UX prior to launch.
+    </p></div>
+  <div class="item3">
+    <img src="https://farm1.staticflickr.com/871/27390545678_d5ee36528b.jpg"  alt="GeoEngineers">
+        <p>GeoEngineers is an earth science and technology firm with 14 offices. I did user research, UX design and prototyping of a new company intranet.</p></div>  
+      
+  <div class="item4">
+            <img src="https://farm1.staticflickr.com/798/27390548858_4e5ba515bc.jpg"  alt="Microsoft">
+        <p>Microsoft Windows, SharePoint, and Advertising groups have been my clients on a variety of website, intranet, and extranet UX projects.</p></div>
+      
+  <div class="item5">  <img src="https://farm1.staticflickr.com/893/41264003841_05ee041916.jpg" alt="motif">
+        <p>Motif Investing is an online broker that lets investors buy stocks based on ideas and trends. I helped them design and prototype a new iPhone app.</p></div>
+      
+  <div class="item6"> <img src="https://farm1.staticflickr.com/799/41264005061_cb636bc534.jpg"  alt="NATIONAL GEOGRAPHIC">
+        <p>National Geographic needed a set of interactives to educate web visitors on global warming. I helped research, organize and present the content.</p></div>
+      
+  <div class="item7">  <img src="https://farm1.staticflickr.com/795/39472633630_39b9f785d2.jpg"  alt="blink">
+        <p>Blink is a UX research and design firm specializing in digital products. I led numerous interaction design and research projects for the company.</p></div>
+      
+  <div class="item8">   <img src="https://farm1.staticflickr.com/863/39472634920_99143f0acd.jpg" alt="Fell Swoop">
+        <p>Fell Swoop is a digital agency with a focus on user experience. I was a partner and lead designer on a wide range of design and research projects.</p></div>
+      
+  <div class="item9">  <img src="https://farm1.staticflickr.com/883/39472635740_13e1627e84.jpg"  alt="frog">
+        <p>frog is one of the best product design firms in the world. I embedded with their team to help design and prototype a cloud-based collaboration app.</p></div>
+      
+
+</div>
+   <article>
+      <p> My clients are startups and Fortune 500 companies in e-commerce, education, entertainment, financial services, health care, science, social, software, and telecom. </p></article>
+    
+    <h2>Expertise</h2>
+    <h2 id="h2btn"><button class="sectiontogglebtn" id="togglebtn2">Collapse Section </button></h2>
+    
+       <div class="grid-container2">
+  <div class="item1"> <h4> <img src="https://farm1.staticflickr.com/798/40550233884_05c155e6dd_m.jpg" alt="ll"> User Experience Design </h4> 
+    <p>User profiles, personas, task analysis, scenarios, user flows, user stories, experience mapping.</p></div>
+         
+  <div class="item2"> <h4> <img src="https://farm1.staticflickr.com/883/40368155435_cb3a18da18_m.jpg"  alt="frog"> Interaction Design</h4>
+    <p> UI design, paper prototyping, wireframe prototyping, interactive prototyping, high fidelity wireframes.</p></div>
+         
+  <div class="item3"> <h4> <img src="https://farm1.staticflickr.com/800/39454950150_0302bedea7_m.jpg"  alt="frog"> Information Architecture</h4>
+        <p>Navigation design, labeling, content inventory, taxonomy, metadata, tagging, search design.</p></div> 
+         
+  <div class="item4"> <h4> <img src="https://farm1.staticflickr.com/898/39454949180_4fde1d52b9_m.jpg"  alt="frog"> User Research</h4>
+        <p>Contextual inquiry, user interviews, user surveys, card sort studies, mental models.</p></div>
+         
+  <div class="item5"> <h4> <img src="https://farm1.staticflickr.com/818/40368155955_b0709f3793_m.jpg" alt="oo"> 
+  Usability Testing </h4>
+        <p>Test plan, participant screener, session script, remote testing, in-person moderation, findings analysis, recommendations report.</p></div>
+         
+  <div class="item6"> <h4><img src="https://farm1.staticflickr.com/866/40368155025_d25f00edaa_m.jpg"  alt="frog"> Expert Review</h4>
+        <p>Heuristic analysis, cognitive walkthrough, issue identification, severity ranking, recommendations report.</p></div>
+         
+ </div>
+
+  <article>
+      <p>My process is based on established user-centered design methods, but is adjusted and optimized for each situation and client. </p></article>
+      
+      <wrapper id="s1">
+         <h2><b>Testimonials</b></h2>
+           <h2 id="h2btn"><button class="sectiontogglebtn" id="togglebtn3">Collapse Section </button></h2>
+        
+        <div class="grid-container3">
+    <section> <article2>  <p> “Kris is a thoughtful and talented designer who does amazing work. […] He excels at solving complex design problems while doing what is right for the business…” </p> Kelly Franznick, Chief Experience Officer, Blink
+         </article2> </section>
+    <section>
+  <article2>
+  <p> “Kris is an outstanding UX designer, able to take very complex problems and distill them into easy to use, intuitive flows…”</p>
+    Vlad Siminel Andrei, Senior Product Manager, Motif Investing</article2> </section>
+ 
+      <section> <article2>  <p>“Kris is amazing to work with. From the moment he stepped into the office, his experience, expertise, and critical design-thinking made his contribution to [the product] invaluable.” </p>
+
+Mike Finch, Product Designer, Facebook </section> </article2> </wrapper>
+     <article>
+       
+        <p>My engagements typically last from two weeks to six months. I am based in Seattle, but my clients can be located anywhere.</p>
+      </article>
+        </div>
+    
+   <h5>Contact</h5>
+  <footer> 
+   <b><br>Kris Kosta</br></b>
+  <br>6920 Roosevelt Way NE </br> 
+  <br>Suite 147</br>
+  <br>Marin, CA 94904</br>
+  <br>(206) 734-5846</br>
+  <br> </br>
+<p><a href="http://markwieman.com/">kris@kriswebdev.com</a></p>
+  </footer>
+</body>
+</html>
